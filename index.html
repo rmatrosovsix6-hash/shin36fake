@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ШинТочка 36 — шиномонтаж, шины и диски</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<div class="logo">ШИН<b>ТОЧКА</b> 36</div>
+<nav><a href="#services">Услуги</a><a href="#calc">Калькулятор</a><a href="#why">О нас</a><a href="#contacts">Контакты</a><a class="btn" style="margin-left:20px;padding:8px 16px" href="https://vk.com/shinvrn" target="_blank" rel="noopener">Записаться</a></nav>
+</div></header>
+
+<main>
+<div class="wrap hero">
+<div>
+<span class="tag">Б/У шины · Шиномонтаж</span>
+<h1>Быстро. Честно. <span>На месте.</span></h1>
+<p>Шиномонтаж, ремонт проколов, продажа шин и дисков. Без очередей и накруток — цены видны сразу.</p>
+<div class="cta"><a class="btn" href="https://vk.com/shinvrn" target="_blank" rel="noopener">Написать в VK</a><a class="btn ghost" href="#services">Цены на услуги</a></div>
+</div>
+<div class="tire" role="img" aria-label="Колесо"></div>
+</div>
+
+<section id="services"><div class="wrap">
+<h2>Услуги и цены</h2>
+<p class="sub">Основные работы — остальное уточняйте в сообществе.</p>
+<div class="grid">
+<div class="card"><h3>Шиномонтаж колеса</h3><div class="price">200 ₽</div><p>Снятие и установка шины на диск.</p></div>
+<div class="card"><h3>Ремонт прокола жгутом</h3><div class="price">300 ₽</div><p>Быстрый ремонт прокола без снятия шины.</p></div>
+<div class="card"><h3>Комплексная смена шин R16</h3><div class="price">2000 ₽</div><p>Полная замена комплекта шин R16.</p></div>
+<div class="card"><h3>Шины и диски</h3><div class="price" style="font-size:28px">Б/У и новые</div><p>Подбор из наличия — смотрите актуальное в VK.</p></div>
+</div>
+</div></section>
+
+<section id="calc"><div class="wrap">
+<h2>Калькулятор стоимости</h2>
+<p class="sub">Выберите работы и количество колёс — узнайте цену за пару секунд.</p>
+<div class="calc">
+<div id="opts">
+<label class="opt" data-p="200" data-per="1"><input type="checkbox" checked><span>Шиномонтаж колеса</span><em>200 ₽/колесо</em></label>
+<label class="opt" data-p="300" data-per="1"><input type="checkbox"><span>Ремонт прокола жгутом</span><em>300 ₽/колесо</em></label>
+<label class="opt" data-p="2000" data-per="0"><input type="checkbox"><span>Комплексная смена шин R16</span><em>2000 ₽/комплект</em></label>
+<div class="step"><span style="color:var(--muted)">Колёс:</span><button type="button" id="minus" aria-label="Меньше">−</button><b id="cnt">4</b><button type="button" id="plus" aria-label="Больше">+</button></div>
+</div>
+<div class="card"><small style="color:var(--muted)">ИТОГО</small><div class="total"><span id="tot">0</span> ₽</div><div class="sum" id="sum"></div><button class="btn" id="send" type="button">Записаться с этим заказом</button></div>
+</div>
+</div></section>
+
+<section id="why"><div class="wrap">
+<h2>Почему к нам</h2>
+<p class="sub">Нам доверяют — это видно по отзывам.</p>
+<div class="stats">
+<div class="card"><b data-n="4.7" data-d="1" data-s=" ★">4,7 ★</b><p>рейтинг на Яндекс Картах</p></div>
+<div class="card"><b data-n="5" data-d="0" data-s="%">5%</b><p>кешбэк на покупки</p></div>
+<div class="card"><b>Б/У</b><p>шины и диски в наличии</p></div>
+</div>
+</div></section>
+
+<section id="faq"><div class="wrap faq">
+<h2>Частые вопросы</h2>
+<p class="sub">Коротко о главном.</p>
+<details><summary>Нужно ли записываться заранее?</summary><p>Можно написать нам в VK и договориться о времени — так не придётся ждать в очереди.</p></details>
+<details><summary>Есть ли Б/У шины и диски?</summary><p>Да, у нас есть Б/У шины и диски. Актуальное наличие смотрите в сообществе VK.</p></details>
+<details><summary>Как узнать цену на другой радиус?</summary><p>Цена на R16 указана выше. По другим размерам напишите в VK — подскажем стоимость.</p></details>
+<details><summary>Что за кешбэк 5%?</summary><p>Кешбэк 5% начисляется на покупки — детали уточняйте при заказе.</p></details>
+</div></section>
+
+<section id="contacts"><div class="wrap">
+<h2>Как нас найти</h2>
+<p class="sub">Приезжайте или пишите — ответим в сообществе.</p>
+<div class="contacts">
+<div class="card"><small>Адрес</small>ул. Антонова-Овсеенко, 14А</div>
+<div class="card"><small>Телефон</small><a href="tel:+79204500000">+7 (920) 450-XX-XX</a></div>
+<div class="card"><small>Мы в VK</small><a href="https://vk.com/shinvrn" target="_blank" rel="noopener">vk.com/shinvrn</a></div>
+</div>
+<div class="cta" style="margin-top:28px"><a class="btn" href="https://vk.com/shinvrn" target="_blank" rel="noopener">Записаться через VK</a></div>
+</div></section>
+</main>
+<footer>© ШинТочка 36 · Шиномонтаж, шины и диски</footer>
+<div class="toast" id="toast">Заказ скопирован — вставьте в чат VK</div>
+<script src="script.js"></script>
+</body>
+</html>
